@@ -1,0 +1,16 @@
+# AWS Kafka broker
+#
+# internal port 9292
+# external port 9292
+#
+# topic is "stocks6" but is configurable in producer
+#
+# producer run command:
+#   /home/ec2-user/kafka_2.12-2.2.0/python3 fs_demo_producer.py
+#
+# must export the following env var prior to running producer
+export IEX_TOKEN=sk_3969390b287b4645a433f32c9d2dd1a6
+
+
+# connection info (requires standard gaia.pem)
+ssh -i gaia.pem ec2-user@52.200.201.93

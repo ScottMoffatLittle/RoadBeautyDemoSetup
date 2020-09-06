@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "TSLA",
+    "exposure": "BUY",
+    "option_type": "CALL",
+    "strike_price": 1000,
+    "volatility": 0.25,
+    "spot_price": 700,
+    "dividend_rate": 0.1,
+    "risk_free_rate": 0.1,
+    "maturity_y": 2020,
+    "maturity_m": 12,
+    "maturity_d": 15,
+    "calc_dt_y": 2020,
+    "calc_dt_m": 3,
+    "calc_dt_d": 1,
+    "day_count": "ACT/365",
+    "calendar": "LON"
+  },
+  {
+    "symbol": "TSLA",
+    "exposure": "BUY",
+    "option_type": "CALL",
+    "strike_price": 1100,
+    "volatility": 0.25,
+    "spot_price": 700,
+    "dividend_rate": 0.1,
+    "risk_free_rate": 0.1,
+    "maturity_y": 2020,
+    "maturity_m": 12,
+    "maturity_d": 15,
+    "calc_dt_y": 2020,
+    "calc_dt_m": 3,
+    "calc_dt_d": 1,
+    "day_count": "ACT/365",
+    "calendar": "LON"
+  }
+]  
