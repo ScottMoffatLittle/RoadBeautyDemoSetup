@@ -5,8 +5,8 @@
 demo_environment = {
     "rest_api":      "http://172.31.32.32:9187",
     "db_connection": "http://172.31.32.32:9191",
-    "db_user": "admin",
-    "db_password": "Kinetica1!",
+    "db_user": "",
+    "db_password": "",
     "deployment_modes": ["CONTINUOUS"]
 }
 
@@ -108,8 +108,8 @@ ingest_photostream_app_kafka_kinesis = {
         "table_name": "dashcam_snapapp_inbounds",
         "env_vars":
         {
-            "AWS_ACCESS_KEY_ID": "AKIAI3ODIWU3FEOTTFSA",
-            "AWS_SECRET_ACCESS_KEY": "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",
+            "AWS_ACCESS_KEY_ID": "",
+            "AWS_SECRET_ACCESS_KEY": "",
             "AWS_DEFAULT_REGION": "us-east-1",
             "AWS_KINESIS_PRODUCER_TOPIC": "kinetica",
         }
@@ -127,7 +127,7 @@ ingest_photostream_byoc_mapillarry = {
         "table_name": "dashcam_mapillary_inbound",
         "env_vars":
         {
-            "MAPILLARY_API_CLIENT_ID": "YVJuOGk4NFI2RmxPdWpHT3pDQ3l0Mjo5NzI4OTIyNWEwMTA1ZWFl",
+            "MAPILLARY_API_CLIENT_ID": "",
             "COORDINATE_CENTER_LAT": "37.4476237",
             "COORDINATE_CENTER_LONG": "-122.1598575",
             "RADIUS": "10000",
@@ -160,6 +160,6 @@ credential_manifestx = {"credential_name":"AWS Saif Ahmed Personal",
     "credential_config":{
         's3_bucket': 'kinetica',
         's3_path': 'kinetica/datalets',
-        'aws_access_key_id': 'AKIAJX43VJUEBQMELIBA',
-        'aws_secret_access_key': '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'}
+        'aws_access_key_id': '',
+        'aws_secret_access_key': 'x'}
         },
