@@ -161,5 +161,5 @@ credential_manifestx = {"credential_name":"AWS Saif Ahmed Personal",
         's3_bucket': 'kinetica',
         's3_path': 'kinetica/datalets',
         'aws_access_key_id': '',
-        'aws_secret_access_key': 'x'}
+        'aws_secret_access_key': ''}
         },
